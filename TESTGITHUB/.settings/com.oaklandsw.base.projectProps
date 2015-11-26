@@ -1,0 +1,5 @@
+Maps/customerData2XML.xml,com.oaklandsw.base,references.0,Structures/FCUSTDAT/CUSTOMER-DATA.xml
+Maps/customerData2XML.xml,com.oaklandsw.base,references.1,Structures/output.xml
+Structures/FCUSTDAT/CUSTOMER-DATA.xml,com.oaklandsw.base,references.0,Sample Data/fcustdat.bin
+Structures/output.xml,com.oaklandsw.base,references.0,Structures/personal.xml,/Root/PERSONAL-DATA
+Structures/output.xml,com.oaklandsw.base,references.1,Structures/transaction.xml,/Root/TRANSACTIONS
