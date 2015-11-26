@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='' outStruct='' nextMap='' V1='4' name='test' incarnation='3'>
+<root t='190' id='1' V190='11' inStruct='Structures/output.xml' outStruct='Structures/personal.xml' inputRep='172' outputRep='172' nextMap='' inputStructUserName='output' outputStructUserName='personal' V1='4' name='test' incarnation='107'>
+  <inputMapElem t='200' id='4' V200='7' input='true' shown='5' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Root'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='5' V200='7' input='true' shown='5' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/personal.xml' V281='13' V1='4' name='PERSONAL-DATA'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='6' V200='7' input='true' shown='2' structElemExists='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='records'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+    <child t='200' id='7' V200='7' input='true' shown='5' differentFromInherited='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/transaction.xml' V281='13' V1='4' name='TRANSACTIONS'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='8' V200='7' input='true' shown='2' structElemExists='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='records'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='9' V200='7' shown='5' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='PERSONAL-DATA'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/Root,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='10' V200='7' shown='5' structElemExists='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='records'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='11' V200='7' shown='2' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-NAME' description='X(20)'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='12' V200='7' shown='2' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-ADDRESS' description='X(20)'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='13' V200='7' shown='2' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-PHONE' description='X(8)'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='692' id='14' V692='1' V690='1'>
+  </inputRepRuntime>
+  <outputRepRuntime t='692' id='15' V692='1' V690='1'>
+  </outputRepRuntime>
   <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' idref='14'/>
+  <outputXmlRepRuntime t='692' idref='15'/>
   <child t='165' id='2' V1='4' name='Document Bindings'>
+    <child t='166' id='16' V166='5' docType='1' V1='4' name='in$/Root'>
+      <elemNode t='200' idref='4'/>
+    </child>
+    <child t='166' id='17' V166='5' docType='2' V1='4' name='out$/PERSONAL-DATA'>
+      <elemNode t='200' idref='9'/>
+    </child>
   </child>
   <child t='201' id='3' V1='4' name='Inherits From'>
   </child>

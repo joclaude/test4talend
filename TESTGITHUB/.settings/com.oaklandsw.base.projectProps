@@ -1,5 +1,12 @@
+/,com.oaklandsw.base,version,1
+Databases,com.oaklandsw.base,order,5
+Maps,com.oaklandsw.base,order,1
 Maps/customerData2XML.xml,com.oaklandsw.base,references.0,Structures/FCUSTDAT/CUSTOMER-DATA.xml
 Maps/customerData2XML.xml,com.oaklandsw.base,references.1,Structures/output.xml
-Structures/FCUSTDAT/CUSTOMER-DATA.xml,com.oaklandsw.base,references.0,Sample Data/fcustdat.bin
+Namespace Containers,com.oaklandsw.base,order,4
+Reports,com.oaklandsw.base,order,7
+Sample Data,com.oaklandsw.base,order,6
+Structures,com.oaklandsw.base,order,0
+Structures/FCUSTDAT/CUSTOMER-DATA.xml,com.oaklandsw.base,references.0,/TRAINING3/Sample Data/fcustdat.bin
 Structures/output.xml,com.oaklandsw.base,references.0,Structures/personal.xml,/Root/PERSONAL-DATA
 Structures/output.xml,com.oaklandsw.base,references.1,Structures/transaction.xml,/Root/TRANSACTIONS
