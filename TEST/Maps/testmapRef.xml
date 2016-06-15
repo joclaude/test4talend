@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='TESTREF:Structures/FCUSTDAT/CUSTOMER-DATA.xml' outStruct='TESTREF:Structures/output.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='CUSTOMER-DATA' outputStructUserName='output' V1='4' name='testmapRef' incarnation='558'>
+<root t='190' id='1' V190='11' inStruct='TESTREF:Structures/FCUSTDAT/CUSTOMER-DATA.xml' outStruct='TESTREF:Structures/output.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='CUSTOMER-DATA' outputStructUserName='output' V1='4' name='testmapRef' incarnation='562'>
   <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='41' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-DATA'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='5' V200='8' input='true' rowElem='true' structElemExists='true' usedCount='39' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Record'>
@@ -150,7 +150,7 @@
   </inputXmlRepRuntime>
   <outputXmlRepRuntime t='692' idref='45'/>
   <child t='165' id='2' V1='4' name='Document Bindings'>
-    <child t='166' id='47' V166='5' docType='1' docReposPath='/TRAINING3/Sample Data/fcustdat.bin' V1='4' name='in$/CUSTOMER-DATA'>
+    <child t='166' id='47' V166='5' docType='1' docReposPath='/TESTREF/Sample Data/fcustdat.bin' V1='4' name='in$/CUSTOMER-DATA'>
       <elemNode t='200' idref='4'/>
     </child>
     <child t='166' id='48' V166='5' docType='2' V1='4' name='out$/Root'>
