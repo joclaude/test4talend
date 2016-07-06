@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/FCUSTDAT/CUSTOMER-DATA.xml' outStruct='Structures/output.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='CUSTOMER-DATA' outputStructUserName='output' V1='4' name='customerData2XML' incarnation='756'>
+<root t='190' id='1' V190='11' inStruct='Structures/FCUSTDAT/CUSTOMER-DATA.xml' outStruct='Structures/output.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='CUSTOMER-DATA' outputStructUserName='output' V1='4' name='customerData2XML' incarnation='770'>
   <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='41' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-DATA'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='3' V200='8' input='true' rowElem='true' structElemExists='true' usedCount='39' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Record'>
@@ -63,14 +63,11 @@
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='22' V200='8' structElemExists='true' usedCount='42' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
+  <outputMapElem t='200' id='22' V200='8' structElemExists='true' usedCount='40' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/CUSTOMER-DATA,{Filter},{Sort Keys},{Contexts})</loop>
-    <child t='200' id='23' V200='8' structElemExists='true' usedCount='12' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/personal.xml' V281='13' modifiedFromParent_io='true' V1='4' name='PERSONAL-DATA'>
+    <child t='200' id='23' V200='8' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/personal.xml' V281='13' modifiedFromParent_io='true' V1='4' name='PERSONAL-DATA'>
       <mapNode t='190' idref='1'/>
-      <repRuntime t='692' id='52' V692='1' V690='1'>
-      </repRuntime>
-      <io>WriteURL([repName="XML",url="file:///home/jclaude/output1.xml"],{URL})</io>
       <child t='200' id='25' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='records'>
         <mapNode t='190' idref='1'/>
         <loop>SimpleLoop(in$/CUSTOMER-DATA/Record,{Filter},{Sort Keys},{Contexts})</loop>
@@ -88,11 +85,8 @@
         </child>
       </child>
     </child>
-    <child t='200' id='29' V200='8' differentFromInherited='true' structElemExists='true' usedCount='30' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/transaction.xml' V281='13' modifiedFromParent_io='true' V1='4' name='TRANSACTIONS'>
+    <child t='200' id='29' V200='8' differentFromInherited='true' structElemExists='true' usedCount='29' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/transaction.xml' V281='13' modifiedFromParent_io='true' V1='4' name='TRANSACTIONS'>
       <mapNode t='190' idref='1'/>
-      <repRuntime t='692' id='53' V692='1' V690='1'>
-      </repRuntime>
-      <io>WriteURL([repName="XML",url="file:///home/jclaude/output2.xml"],{URL})</io>
       <child t='200' id='31' V200='8' structElemExists='true' usedCount='28' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='records'>
         <mapNode t='190' idref='1'/>
         <loop>SimpleLoop(in$/CUSTOMER-DATA/Record,{Filter},{Sort Keys},{Contexts})</loop>
@@ -164,6 +158,9 @@
     </child>
     <child t='166' id='50' V166='5' docType='2' V1='4' name='out$/Root/PERSONAL-DATA'>
       <elemNode t='200' idref='23'/>
+    </child>
+    <child t='166' id='57' V166='5' docType='2' V1='4' name='out$/Root'>
+      <elemNode t='200' idref='22'/>
     </child>
   </child>
   <child t='201' id='51' V1='4' name='Inherits From'>
