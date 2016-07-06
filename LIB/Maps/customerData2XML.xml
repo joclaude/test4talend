@@ -1,145 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/FCUSTDAT/CUSTOMER-DATA.xml' outStruct='Structures/output.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='CUSTOMER-DATA' outputStructUserName='output' V1='4' name='customerData2XML' incarnation='690'>
-  <inputMapElem t='200' id='2' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-DATA'>
+<root t='190' id='1' V190='11' inStruct='Structures/FCUSTDAT/CUSTOMER-DATA.xml' outStruct='Structures/output.xml' inputRep='173' outputRep='172' nextMap='' inputStructUserName='CUSTOMER-DATA' outputStructUserName='output' V1='4' name='customerData2XML' incarnation='756'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='41' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-DATA'>
     <mapNode t='190' idref='1'/>
-    <child t='200' id='3' V200='7' input='true' shown='5' rowElem='true' structElemExists='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Record'>
+    <child t='200' id='3' V200='8' input='true' rowElem='true' structElemExists='true' usedCount='39' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Record'>
       <mapNode t='190' idref='1'/>
-      <child t='200' id='4' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-ID' description='9(6)'>
+      <child t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-ID' description='9(6)'>
         <mapNode t='190' idref='1'/>
       </child>
-      <child t='200' id='5' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PERSONAL-DATA'>
+      <child t='200' id='5' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PERSONAL-DATA'>
         <mapNode t='190' idref='1'/>
-        <child t='200' id='6' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-NAME' description='X(20)'>
+        <child t='200' id='6' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-NAME' description='X(20)'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='7' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-ADDRESS' description='X(20)'>
+        <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-ADDRESS' description='X(20)'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='8' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-PHONE' description='X(8)'>
+        <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUSTOMER-PHONE' description='X(8)'>
           <mapNode t='190' idref='1'/>
         </child>
       </child>
-      <child t='200' id='9' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTIONS'>
+      <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='31' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTIONS'>
         <mapNode t='190' idref='1'/>
-        <child t='200' id='10' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='16' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-NBR' description='9(9)'>
+        <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='16' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-NBR' description='9(9)'>
           <mapNode t='190' idref='1'/>
         </child>
-        <child t='200' id='11' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='5' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION'>
+        <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='29' V283='2' occurMaxTimes='5' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION'>
           <mapNode t='190' idref='1'/>
           <util>SetElementProperty([property="3"],{Element},in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION-NBR)</util>
-          <child t='200' id='12' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' groupType='2' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Redefines_Choice'>
+          <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' groupType='2' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Redefines_Choice'>
             <mapNode t='190' idref='1'/>
-            <child t='200' id='13' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-DATE' description='X(8)'>
+            <child t='200' id='13' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-DATE' description='X(8)'>
               <mapNode t='190' idref='1'/>
               <ispresent>Constant([value="true",dataType="1"],)</ispresent>
             </child>
-            <child t='200' id='14' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER'>
+            <child t='200' id='14' V200='8' input='true' structElemExists='true' usedCount='15' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER'>
               <mapNode t='190' idref='1'/>
               <ispresent>Constant([value="false",dataType="1"],)</ispresent>
-              <child t='200' id='15' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-DAY' description='X(2)'>
+              <child t='200' id='15' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-DAY' description='X(2)'>
                 <mapNode t='190' idref='1'/>
               </child>
-              <child t='200' id='16' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X'>
+              <child t='200' id='16' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X'>
                 <mapNode t='190' idref='1'/>
               </child>
-              <child t='200' id='17' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-MONTH' description='X(2)'>
+              <child t='200' id='17' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-MONTH' description='X(2)'>
                 <mapNode t='190' idref='1'/>
               </child>
-              <child t='200' id='18' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X'>
+              <child t='200' id='18' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FILLER' description='X'>
                 <mapNode t='190' idref='1'/>
               </child>
-              <child t='200' id='19' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-YEAR' description='X(2)'>
+              <child t='200' id='19' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-YEAR' description='X(2)'>
                 <mapNode t='190' idref='1'/>
               </child>
             </child>
           </child>
-          <child t='200' id='20' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-AMOUNT' description='S9(13)V99'>
+          <child t='200' id='20' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-AMOUNT' description='S9(13)V99'>
             <mapNode t='190' idref='1'/>
           </child>
-          <child t='200' id='21' V200='7' input='true' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='9' maxSize='9' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-COMMENT' description='X(9)'>
+          <child t='200' id='21' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='9' maxSize='9' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TRANSACTION-COMMENT' description='X(9)'>
             <mapNode t='190' idref='1'/>
           </child>
         </child>
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='22' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
+  <outputMapElem t='200' id='22' V200='8' structElemExists='true' usedCount='42' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/CUSTOMER-DATA,{Filter},{Sort Keys},{Contexts})</loop>
-    <child t='200' id='23' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/personal.xml' V281='13' modifiedFromParent_io='true' V1='4' name='PERSONAL-DATA'>
+    <child t='200' id='23' V200='8' structElemExists='true' usedCount='12' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/personal.xml' V281='13' modifiedFromParent_io='true' V1='4' name='PERSONAL-DATA'>
       <mapNode t='190' idref='1'/>
-      <repRuntime t='692' id='24' V692='1' V690='1'>
+      <repRuntime t='692' id='52' V692='1' V690='1'>
       </repRuntime>
       <io>WriteURL([repName="XML",url="file:///home/jclaude/output1.xml"],{URL})</io>
-      <child t='200' id='25' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='records'>
+      <child t='200' id='25' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='records'>
         <mapNode t='190' idref='1'/>
         <loop>SimpleLoop(in$/CUSTOMER-DATA/Record,{Filter},{Sort Keys},{Contexts})</loop>
-        <child t='200' id='26' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CUSTOMER-NAME' description='X(20)'>
+        <child t='200' id='26' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CUSTOMER-NAME' description='X(20)'>
           <mapNode t='190' idref='1'/>
           <value>in$/CUSTOMER-DATA/Record/PERSONAL-DATA/CUSTOMER-NAME</value>
         </child>
-        <child t='200' id='27' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CUSTOMER-ADDRESS' description='X(20)'>
+        <child t='200' id='27' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='20' maxSize='20' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CUSTOMER-ADDRESS' description='X(20)'>
           <mapNode t='190' idref='1'/>
           <value>in$/CUSTOMER-DATA/Record/PERSONAL-DATA/CUSTOMER-ADDRESS</value>
         </child>
-        <child t='200' id='28' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CUSTOMER-PHONE' description='X(8)'>
+        <child t='200' id='28' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CUSTOMER-PHONE' description='X(8)'>
           <mapNode t='190' idref='1'/>
           <value>in$/CUSTOMER-DATA/Record/PERSONAL-DATA/CUSTOMER-PHONE</value>
         </child>
       </child>
     </child>
-    <child t='200' id='29' V200='7' shown='5' differentFromInherited='true' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/transaction.xml' V281='13' modifiedFromParent_io='true' V1='4' name='TRANSACTIONS'>
+    <child t='200' id='29' V200='8' differentFromInherited='true' structElemExists='true' usedCount='30' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/transaction.xml' V281='13' modifiedFromParent_io='true' V1='4' name='TRANSACTIONS'>
       <mapNode t='190' idref='1'/>
-      <repRuntime t='692' id='30' V692='1' V690='1'>
+      <repRuntime t='692' id='53' V692='1' V690='1'>
       </repRuntime>
       <io>WriteURL([repName="XML",url="file:///home/jclaude/output2.xml"],{URL})</io>
-      <child t='200' id='31' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='records'>
+      <child t='200' id='31' V200='8' structElemExists='true' usedCount='28' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='records'>
         <mapNode t='190' idref='1'/>
         <loop>SimpleLoop(in$/CUSTOMER-DATA/Record,{Filter},{Sort Keys},{Contexts})</loop>
-        <child t='200' id='32' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='16' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-NBR' description='9(9)'>
+        <child t='200' id='32' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='4' maxSize='4' dataType='16' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-NBR' description='9(9)'>
           <mapNode t='190' idref='1'/>
           <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION-NBR</value>
         </child>
-        <child t='200' id='33' V200='7' shown='5' differentFromInherited='true' structElemExists='true' V283='1' occurMaxTimes='5' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='TRANSACTION'>
+        <child t='200' id='33' V200='8' differentFromInherited='true' structElemExists='true' usedCount='24' V283='2' occurMaxTimes='5' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='TRANSACTION'>
           <mapNode t='190' idref='1'/>
           <loop>SimpleLoop(in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION,{Filter},{Sort Keys},{Contexts})</loop>
-          <child t='200' id='34' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' groupType='2' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Redefines_Choice'>
+          <child t='200' id='34' V200='8' structElemExists='true' usedCount='17' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' groupType='2' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Redefines_Choice'>
             <mapNode t='190' idref='1'/>
-            <child t='200' id='35' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' modifiedFromParent_value='true' V1='4' name='TRANSACTION-DATE' description='X(8)'>
+            <child t='200' id='35' V200='8' differentFromInherited='true' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' modifiedFromParent_value='true' V1='4' name='TRANSACTION-DATE' description='X(8)'>
               <mapNode t='190' idref='1'/>
               <emit>IsPresent(in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/Redefines_Choice/TRANSACTION-DATE)</emit>
               <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/Redefines_Choice/TRANSACTION-DATE</value>
             </child>
-            <child t='200' id='36' V200='7' shown='5' structElemExists='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='FILLER'>
+            <child t='200' id='36' V200='8' differentFromInherited='true' structElemExists='true' usedCount='14' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='FILLER'>
               <mapNode t='190' idref='1'/>
               <emit>IsPresent(in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/Redefines_Choice/FILLER)</emit>
-              <child t='200' id='37' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-DAY' description='X(2)'>
+              <child t='200' id='37' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-DAY' description='X(2)'>
                 <mapNode t='190' idref='1'/>
                 <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/Redefines_Choice/FILLER/TRANSACTION-DAY</value>
               </child>
-              <child t='200' id='38' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FILLER' description='X'>
+              <child t='200' id='38' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FILLER' description='X'>
                 <mapNode t='190' idref='1'/>
                 <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/Redefines_Choice/FILLER/FILLER</value>
               </child>
-              <child t='200' id='39' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-MONTH' description='X(2)'>
+              <child t='200' id='39' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-MONTH' description='X(2)'>
                 <mapNode t='190' idref='1'/>
                 <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/Redefines_Choice/FILLER/TRANSACTION-MONTH</value>
               </child>
-              <child t='200' id='40' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FILLER' description='X'>
+              <child t='200' id='40' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FILLER' description='X'>
                 <mapNode t='190' idref='1'/>
                 <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/Redefines_Choice/FILLER/FILLER[2]</value>
               </child>
-              <child t='200' id='41' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-YEAR' description='X(2)'>
+              <child t='200' id='41' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-YEAR' description='X(2)'>
                 <mapNode t='190' idref='1'/>
                 <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/Redefines_Choice/FILLER/TRANSACTION-YEAR</value>
               </child>
             </child>
           </child>
-          <child t='200' id='42' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-AMOUNT' description='S9(13)V99'>
+          <child t='200' id='42' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='22' dataFormat='202' decimalPositions='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-AMOUNT' description='S9(13)V99'>
             <mapNode t='190' idref='1'/>
             <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/TRANSACTION-AMOUNT</value>
           </child>
-          <child t='200' id='43' V200='7' shown='5' structElemExists='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='9' maxSize='9' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-COMMENT' description='X(9)'>
+          <child t='200' id='43' V200='8' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='9' maxSize='9' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TRANSACTION-COMMENT' description='X(9)'>
             <mapNode t='190' idref='1'/>
             <value>in$/CUSTOMER-DATA/Record/TRANSACTIONS/TRANSACTION/TRANSACTION-COMMENT</value>
           </child>
@@ -147,14 +147,14 @@
       </child>
     </child>
   </outputMapElem>
-  <inputRepRuntime t='693' id='44' V693='1' delimiter=',' physicalEncoding='1' numberEncoding='1' positional='true' padOccurs='true' structName='Structures/FCUSTDAT/CUSTOMER-DATA.xml' V690='1' padOutput='true' encoding='IBM037' trimInput='true'>
+  <inputRepRuntime t='693' id='54' V693='1' delimiter=',' physicalEncoding='1' numberEncoding='1' positional='true' padOccurs='true' structName='Structures/FCUSTDAT/CUSTOMER-DATA.xml' V690='1' padOutput='true' encoding='IBM037' trimInput='true'>
   </inputRepRuntime>
-  <outputRepRuntime t='692' id='45' V692='1' V690='1'>
+  <outputRepRuntime t='692' id='55' V692='1' V690='1'>
   </outputRepRuntime>
   <valueSets></valueSets>
-  <inputXmlRepRuntime t='692' id='46' V692='1' V690='1'>
+  <inputXmlRepRuntime t='692' id='56' V692='1' V690='1'>
   </inputXmlRepRuntime>
-  <outputXmlRepRuntime t='692' idref='45'/>
+  <outputXmlRepRuntime t='692' idref='55'/>
   <child t='165' id='47' V1='4' name='Document Bindings'>
     <child t='166' id='48' V166='5' docType='1' docReposPath='/TRAINING3/Sample Data/fcustdat.bin' V1='4' name='in$/CUSTOMER-DATA'>
       <elemNode t='200' idref='2'/>
