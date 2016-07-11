@@ -1,0 +1,20 @@
+/,com.oaklandsw.base,version,1
+Databases,com.oaklandsw.base,order,5
+Maps,com.oaklandsw.base,order,1
+Maps/IDocs/EKSEKS01_MAP.xml,com.oaklandsw.base,references.0,Structures/IDocs/EKSEKS01.xml
+Namespace Containers,com.oaklandsw.base,order,4
+Reports,com.oaklandsw.base,order,7
+Sample Data,com.oaklandsw.base,order,6
+Structures,com.oaklandsw.base,order,0
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.0,Structures/Segments/E2PISSO.xml,/EKSEKS01/Loop-E2PISTY/Loop-E2PISHO/Loop-E2PISIO001/E2PISSO
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.1,Structures/Segments/E2CMCCO.xml,/EKSEKS01/E2CMCCO
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.2,Structures/Segments/EDI_DC40.xml,/EKSEKS01/EDI_DC40
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.3,Sample Data/IDocs/EKSEKS01/TSCPOS_00610139
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.4,Structures/Segments/E2PISHD.xml,/EKSEKS01/Loop-E2PISTY/Loop-E2PISHD/E2PISHD
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.5,Structures/Segments/E2PISTY.xml,/EKSEKS01/Loop-E2PISTY/E2PISTY
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.6,Structures/Segments/E2PISIT001.xml,/EKSEKS01/Loop-E2PISTY/Loop-E2PISHD/Loop-E2PISIT001/E2PISIT001
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.7,Structures/Segments/E2PISHO.xml,/EKSEKS01/Loop-E2PISTY/Loop-E2PISHO/E2PISHO
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.8,Structures/Segments/E2PISIO001.xml,/EKSEKS01/Loop-E2PISTY/Loop-E2PISHO/Loop-E2PISIO001/E2PISIO001
+Structures/IDocs/EKSEKS01.xml,com.oaklandsw.base,references.9,Structures/Segments/E2PISSI.xml,/EKSEKS01/Loop-E2PISTY/Loop-E2PISHD/Loop-E2PISIT001/E2PISSI
+assembly.xml,com.oaklandsw.base,order,9
+pom.xml,com.oaklandsw.base,order,8

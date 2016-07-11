@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x152d72442d8' V1='4' name='EKSEKS01' incarnation='45'>
+  <rootElem t='167' id='2' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EKSEKS01' description='Purchasing document data for Purchasing Info System'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='41' inheritsFromTimestamp='0x152d724426b' inheritsInThisStruct='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40' description='Control record' checksumValid='true' checksum='HJfgg5JAOjlAjugDdMK4KjYHFNE='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EDI_DC40' description='Control record'>
+        <delimTerminator>\n</delimTerminator>
+      </savedOrigCopyAtInheritsFrom>
+      <delimTerminator>\n</delimTerminator>
+    </child>
+    <child t='167' id='6' V167='21' inheritsFromIncarnation='40' inheritsFromTimestamp='0x152d72442c8' inheritsInThisStruct='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2CMCCO.xml' V281='13' V1='4' name='E2CMCCO' description='General control fields for updating' checksumValid='true' checksum='pt0YMg/s3SV4hl8typqQG554byc='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='7' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2CMCCO.xml' V281='13' V1='4' name='E2CMCCO'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='8' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2CMCCO' description='General control fields for updating'>
+        <delimTerminator>\n</delimTerminator>
+      </savedOrigCopyAtInheritsFrom>
+      <delimTerminator>\n</delimTerminator>
+    </child>
+    <child t='167' id='9' V167='21' V283='1' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2PISTY' description='Purchasing document - type segment'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='10' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x152d72442cb' inheritsInThisStruct='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISTY.xml' V281='13' V1='4' name='E2PISTY' description='Purchasing document - type segment' checksumValid='true' checksum='lfkVEm0msuXR3Y6Xw4wYwe8d9mw='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='11' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISTY.xml' V281='13' V1='4' name='E2PISTY'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='12' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2PISTY' description='Purchasing document - type segment'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='13' V167='21' V283='1' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2PISHD' description='Purchasing document - header data'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='14' V167='21' inheritsFromIncarnation='52' inheritsFromTimestamp='0x152d72442cc' inheritsInThisStruct='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISHD.xml' V281='13' V1='4' name='E2PISHD' description='Purchasing document - header data' checksumValid='true' checksum='mrVmIcLKotcB/qH0IyCrR1DQ4Hs='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='15' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISHD.xml' V281='13' V1='4' name='E2PISHD'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='16' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2PISHD' description='Purchasing document - header data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='17' V167='21' V283='1' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2PISIT001' description='Purchasing document - item data'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='18' V167='21' inheritsFromIncarnation='103' inheritsFromTimestamp='0x152d72442cd' inheritsInThisStruct='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISIT001.xml' V281='13' V1='4' name='E2PISIT001' description='Purchasing document - item data' checksumValid='true' checksum='bcSo5egd0RGEEOGjLyFJEX1TJnQ='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='19' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISIT001.xml' V281='13' V1='4' name='E2PISIT001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='20' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2PISIT001' description='Purchasing document - item data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='21' V167='21' inheritsFromIncarnation='25' inheritsFromTimestamp='0x152d72442d0' inheritsInThisStruct='true' V283='1' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISSI.xml' V281='13' V1='4' name='E2PISSI' description='Purchasing document - schedule line data' checksumValid='true' checksum='7LVd2IrD1+Ebvx+NSfNmnWsSmLY='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='22' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISSI.xml' V281='13' V1='4' name='E2PISSI'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='23' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2PISSI' description='Purchasing document - schedule line data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='24' V167='21' V283='1' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2PISHO' description='Purchasing document - old header data'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='25' V167='21' inheritsFromIncarnation='52' inheritsFromTimestamp='0x152d72442d1' inheritsInThisStruct='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISHO.xml' V281='13' V1='4' name='E2PISHO' description='Purchasing document - old header data' checksumValid='true' checksum='QD+GZwm7Rh2ZusvNYtYdgfkLK00='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='26' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISHO.xml' V281='13' V1='4' name='E2PISHO'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='27' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2PISHO' description='Purchasing document - old header data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='28' V167='21' V283='1' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2PISIO001' description='Purchasing document - old item data'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='29' V167='21' inheritsFromIncarnation='103' inheritsFromTimestamp='0x152d72442d3' inheritsInThisStruct='true' V283='1' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISIO001.xml' V281='13' V1='4' name='E2PISIO001' description='Purchasing document - old item data' checksumValid='true' checksum='StS4kPHYKGeGZ8TN/UvNfGoDkEg='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='30' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISIO001.xml' V281='13' V1='4' name='E2PISIO001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='31' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2PISIO001' description='Purchasing document - old item data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='32' V167='21' inheritsFromIncarnation='25' inheritsFromTimestamp='0x152d72442d7' inheritsInThisStruct='true' V283='1' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='20' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISSO.xml' V281='13' V1='4' name='E2PISSO' description='Purchasing document - old schedule line data' checksumValid='true' checksum='4GCaKeT8V6qtWx/o4KpbHsgbTAQ='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='33' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/Segments/E2PISSO.xml' V281='13' V1='4' name='E2PISSO'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='34' V167='21' V283='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2PISSO' description='Purchasing document - old schedule line data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='173' id='35' V170='10' V693='1' newLineType='3' delimiter=',' positional='true' truncatable='true' padOccurs='true' structName='Structures/IDocs/EKSEKS01.xml' V690='1' padOutput='true' trimInput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='Flat'>
+  </defaultRep>
+  <child t='162' id='36' V1='4' name='Representations'>
+    <child t='173' idref='35'/>
+    <child t='172' id='37' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+  </child>
+  <child t='165' id='38' V1='4' name='Document Bindings'>
+    <child t='166' id='39' V166='5' docType='1' docReposPath='/COMMONS/Sample Data/IDocs/EKSEKS01/TSCPOS_00610139' V1='4' name='/EKSEKS01'>
+      <elemNode t='167' idref='2'/>
+    </child>
+  </child>
+</root>
