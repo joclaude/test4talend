@@ -1,0 +1,188 @@
+package routines;
+
+import java.util.Arrays;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class StringHandling2 {
+    /**
+     * LPAD: left pads a String with given character
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} String("hello") s: the string to be padded
+     * {param} int(10) length: the length of the resulting string
+     * {param} char(' ') c: the character used for padding
+     * 
+     * {example} LPAD("hello", 10, ' ') # "     hello"
+     * 
+     * @param s
+     * @param length
+     * @param c
+     * @return
+     */
+	public static boolean isAsciiPrintable(String str) {
+	      if (str == null) {
+	          return false;
+	      }
+	      int sz = str.length();
+	      for (int i = 0; i < sz; i++) {
+	          if (isAsciiPrintable(str.charAt(i)) == false) {
+	              return false;
+	          }
+	      }
+	      return true;
+	  }
+	  
+	  /**
+	   * <p>Checks whether the character is ASCII 7 bit printable.</p>
+	   *
+	   * <pre>
+	   *   CharUtils.isAsciiPrintable('a')  = true
+	   *   CharUtils.isAsciiPrintable('A')  = true
+	   *   CharUtils.isAsciiPrintable('3')  = true
+	   *   CharUtils.isAsciiPrintable('-')  = true
+	   *   CharUtils.isAsciiPrintable('\n') = false
+	   *   CharUtils.isAsciiPrintable('&copy;') = false
+	   * </pre>
+	   * 
+	   * @param ch  the character to check
+	   * @return true if between 32 and 126 inclusive
+	   */
+	  public static boolean isAsciiPrintable(char ch) {
+	      return ch >= 32 && ch < 127;
+	  }
+	
+    public static String LPAD(String s, int length, char c) {
+    	// return null if given null
+    	if (null == s) {return null;}
+
+    	int padLength = length - s.length();
+    	
+    	// return string if nothing to do
+    	if (padLength <= 0) {return s;}
+    	
+    	char [] padChars = new char[padLength];
+    	Arrays.fill(padChars, c);
+    	
+    	return new String(padChars).concat(s);
+    }
+
+    /**
+     * RPAD: right pads a String with given character
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} String("hello") s: the string to be padded
+     * {param} int(10) length: the length of the resulting string
+     * {param} char(' ') c: the character used for padding
+     * 
+     * {example} RPAD("hello", 10, ' ') # "hello     "
+     * 
+     * @param s
+     * @param length
+     * @param c
+     * @return
+     */
+    public static String RPAD(String s, int length, char c) {
+    	// return null if given null
+    	if (null == s) {return null;}
+
+    	int padLength = length - s.length();
+    	
+    	// return string if nothing to do
+    	if (padLength <= 0) {return s;}
+    	
+    	char [] padChars = new char[padLength];
+    	Arrays.fill(padChars, c);
+    	String padString = new String(padChars);
+    	
+    	return new String(s).concat(padString);
+    
+    }
+    
+    
+    /**
+     * LTRIM: Trims all specified characters from the string starting from the left. 
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} String("000hello") s: the string to be trimmed
+     * {param} String("0") c: the string to trim
+     * 
+     * {example} LTRIM("000HELLO", '0') # "HELLO"
+     * 
+     * @param s
+     * @param c
+     * @return
+     */
+    public static String LTRIM(String s, String c){
+    	if (null == s || s=="") {return null;}
+    	return s.substring(LTRIMrecur(s, 0, c));
+    }
+    
+    private static int LTRIMrecur(String s, int n, String c){
+		if(!s.substring(n,n+1).equals(c)){
+			return n;
+		} else {
+					
+			return(LTRIMrecur( s,n=n+1, c));
+		}
+    }
+    
+    /**
+     * RTRIM: Trims all specified characters from the string starting from the right. 
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} String("hello0000") s: the string to be trimmed
+     * {param} String("0") c: the string to trim
+     * 
+     * {example} RTRIM("HELLO000", '0') # "HELLO"
+     * 
+     * @param s
+     * @param c
+     * @return
+     */
+    public static String RTRIM(String s, String c){
+    	if (null == s || s=="") {return null;}
+		return s.substring(0,RTRIMrecur(s,s.length(), c));
+    
+    }
+    private static int RTRIMrecur(String s, int n, String c){
+		if(!s.substring(n-1,n).equals(c)){
+			return n;
+		} else {
+					
+			return(RTRIMrecur(s, n=n-1, c));
+		}
+    }
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_lkf6IEdkEeaUMf0YnffQ1A" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_lkf6IUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Schema" prompt="SalesAudit_Schema?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6IkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Server" prompt="SalesAudit_Server?" promptNeeded="false" type="id_String" value="saudit-db1-dev.ssc.tsc"/>
+    <contextParameter xmi:id="_lkf6I0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_AdditionalParams" prompt="SalesAudit_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6JEdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Login" prompt="SalesAudit_Login?" promptNeeded="false" type="id_String" value="boetl"/>
+    <contextParameter xmi:id="_lkf6JUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_ServiceName" prompt="SalesAudit_ServiceName?" promptNeeded="false" type="id_String" value="daudit.world"/>
+    <contextParameter xmi:id="_lkf6JkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Port" prompt="SalesAudit_Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter xmi:id="_lkf6J0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Password" prompt="SalesAudit_Password?" promptNeeded="false" type="id_Password" value="IHHkcHFFY4HwMO/VD5jDLw=="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_lkf6KEdkEeaUMf0YnffQ1A" confirmationNeeded="false" name="prod">
+    <contextParameter xmi:id="_lkf6KUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Schema" prompt="SalesAudit_Schema?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6KkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Server" prompt="SalesAudit_Server?" promptNeeded="false" type="id_String" value="saudit-db1-prd.ssc.tsc"/>
+    <contextParameter xmi:id="_lkf6K0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_AdditionalParams" prompt="SalesAudit_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6LEdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Login" prompt="SalesAudit_Login?" promptNeeded="true" type="id_String" value="xxx"/>
+    <contextParameter xmi:id="_lkf6LUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_ServiceName" prompt="SalesAudit_ServiceName?" promptNeeded="false" type="id_String" value="saudit.world"/>
+    <contextParameter xmi:id="_lkf6LkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Port" prompt="SalesAudit_Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter xmi:id="_lkf6L0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Password" prompt="SalesAudit_Password?" promptNeeded="true" type="id_Password" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_lkf6MEdkEeaUMf0YnffQ1A" confirmationNeeded="false" name="prod2nzdev">
+    <contextParameter xmi:id="_lkf6MUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Schema" prompt="SalesAudit_Schema?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6MkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Server" prompt="SalesAudit_Server?" promptNeeded="false" type="id_String" value="saudit-db1-prd.ssc.tsc"/>
+    <contextParameter xmi:id="_lkf6M0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_AdditionalParams" prompt="SalesAudit_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6NEdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Login" prompt="SalesAudit_Login?" promptNeeded="false" type="id_String" value="boetl"/>
+    <contextParameter xmi:id="_lkf6NUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_ServiceName" prompt="SalesAudit_ServiceName?" promptNeeded="false" type="id_String" value="saudit.world"/>
+    <contextParameter xmi:id="_lkf6NkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Port" prompt="SalesAudit_Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter xmi:id="_lkf6N0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Password" prompt="SalesAudit_Password?" promptNeeded="false" type="id_Password" value="eKrKkx2AIOWVUREiBHICJA=="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_lkf6OEdkEeaUMf0YnffQ1A" confirmationNeeded="false" name="qa">
+    <contextParameter xmi:id="_lkf6OUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Schema" prompt="SalesAudit_Schema?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6OkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Server" prompt="SalesAudit_Server?" promptNeeded="false" type="id_String" value="saudit-db1-qa.ssc.tsc"/>
+    <contextParameter xmi:id="_lkf6O0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_AdditionalParams" prompt="SalesAudit_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6PEdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Login" prompt="SalesAudit_Login?" promptNeeded="false" type="id_String" value="boetl"/>
+    <contextParameter xmi:id="_lkf6PUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_ServiceName" prompt="SalesAudit_ServiceName?" promptNeeded="false" type="id_String" value="taudit.world"/>
+    <contextParameter xmi:id="_lkf6PkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Port" prompt="SalesAudit_Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter xmi:id="_lkf6P0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Password" prompt="SalesAudit_Password?" promptNeeded="false" type="id_Password" value="RkYdblXcHUSGqnzzQNUe7Q=="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_lkf6QEdkEeaUMf0YnffQ1A" confirmationNeeded="false" name="qa2">
+    <contextParameter xmi:id="_lkf6QUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Schema" prompt="SalesAudit_Schema?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6QkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Server" prompt="SalesAudit_Server?" promptNeeded="false" type="id_String" value="saudit-db1-qa.ssc.tsc"/>
+    <contextParameter xmi:id="_lkf6Q0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_AdditionalParams" prompt="SalesAudit_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_lkf6REdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Login" prompt="SalesAudit_Login?" promptNeeded="true" type="id_String" value="boetl"/>
+    <contextParameter xmi:id="_lkf6RUdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_ServiceName" prompt="SalesAudit_ServiceName?" promptNeeded="false" type="id_String" value="taudit2.world"/>
+    <contextParameter xmi:id="_lkf6RkdkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Port" prompt="SalesAudit_Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter xmi:id="_lkf6R0dkEeaUMf0YnffQ1A" comment="" name="SalesAudit_Password" prompt="SalesAudit_Password?" promptNeeded="true" type="id_Password" value="RkYdblXcHUSGqnzzQNUe7Q=="/>
+  </talendfile:ContextType>
+</xmi:XMI>

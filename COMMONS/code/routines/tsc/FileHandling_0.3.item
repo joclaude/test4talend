@@ -1,0 +1,201 @@
+package routines;
+
+import java.io.*;
+import java.util.zip.*;
+import java.io.IOException;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class FileHandling {
+	static final long MAX_LIMIT= 1000 * 1000 * 1024;
+	
+    /**
+     * gzipFile: create a gzip output file from input file
+     * 
+     *  {talendTypes} String
+     *  
+     *  {Category} User Defined
+     *  
+     *  {param} string("infilename") input: the name of the source file
+     *  {param} string("outfilename") input: the name of the target (gzip) file
+     *  
+     *  {example} gzipFile("test.txt", "test.txt.gz") # returns checksum of gzip file
+     */
+    public static String gzipFile (String infilename, String outfilename) {
+    	final int BUF_SIZE = 2048;
+    	String checksumVal = "";
+    	
+    	try {
+    		FileOutputStream dest = new FileOutputStream(outfilename);
+    		CheckedOutputStream checksum = new CheckedOutputStream(dest, new Adler32());
+    		GZIPOutputStream out = new GZIPOutputStream(new BufferedOutputStream(checksum));
+    		
+    		
+    		byte data [] = new byte[BUF_SIZE];
+    		FileInputStream in = new FileInputStream(infilename);
+    		
+    		int length;
+    		while ((length = in.read(data)) > 0) {
+    			out.write(data, 0, length);
+    		}
+    		out.close();
+    		checksumVal = "" + checksum.getChecksum().getValue();
+    	} catch (Exception e) {
+    		e.printStackTrace();
+    		checksumVal = null;
+    	}
+		return  checksumVal;
+    }
+    public static void zipFile (String infilename, String infilepath, String ZipName)  { 
+    	
+    try {	
+    	File d = new File(infilename);
+    	File f = new File(infilepath);
+    	
+    
+    	
+    	int i = 1;
+    	
+        d.delete();
+        String[] flist = f.list();
+        long overallSize = 0;
+        ZipOutputStream out = getOutputStream(i,ZipName);
+        byte[] buffer = new byte[1024];
+        for (int j=0;j<flist.length ;j++)
+        {	
+        File ff = new File(f,flist[j]);
+
+            if (overallSize > MAX_LIMIT) {
+                out.close();
+                i++;
+                out = getOutputStream(i,ZipName);
+                overallSize=0;
+            }
+            String filename = ff.getName();
+             
+                   
+            	FileInputStream in = new FileInputStream(ff);
+            	ZipEntry ze = new ZipEntry(filename);
+            	out.putNextEntry(ze);   
+            	int len;   
+            	while ((len = in.read(buffer)) > 0) {   
+            		out.write(buffer, 0, len);   
+            	}   
+            	out.closeEntry();
+            	in.close(); 
+            	overallSize+=ze.getCompressedSize();
+             	
+         }
+         out.close();    
+    }
+    catch (Exception e) {
+		e.printStackTrace();
+		
+	}
+    
+}
+    public static ZipOutputStream getOutputStream(int i, String ZipNm) throws IOException {
+        ZipOutputStream out = new ZipOutputStream(new FileOutputStream(ZipNm + "_" + i +".zip"));   
+        out.setLevel(Deflater.DEFAULT_COMPRESSION);
+        return out;
+    }
+   
+
+
+
+ 	    	    	    	
+    	
+    	
+   /* 	try {
+    		ZipOutputStream zos =   new ZipOutputStream(new FileOutputStream(ZipName));
+    		/*for (int i=0; i<files.length; i++) 
+    		
+        	{   
+    			FileInputStream in = new FileInputStream(files[i]);
+    		  FileInputStream in = new FileInputStream(infilename); 
+    				zos.putNextEntry(zes);
+    				
+    	   for (int i=0;  i < flist.length; i++)	{
+    	    	File ff = new File(f,flist[i]);
+    	        
+    	    
+    	    	String filename =  ff.getName();
+    	    	System.out.println("File Added : " + filename);
+
+    	    		    	    	    	
+    	     ZipEntry ze = new ZipEntry(filnm);
+    	     zos.putNextEntry(ze);
+    	     FileInputStream in = new FileInputStream(infilename);
+    	     File  file = new File(ZipName);
+    	    	    	    	   			
+    		    		
+    			   int len;
+    			   while ((len = in.read(buffer)) >0) {
+    		    				zos.write(buffer,0,len);
+    			   }
+    			    zos.closeEntry();
+    			    in.close();
+      	
+    		    		
+    			 		    			
+    	}catch (Exception ex) 
+    	{
+    		ex.printStackTrace();
+    	}
+      }*/
+    /**
+     * unGzipFile: decompress a gzip file
+     * 
+     *  {talendTypes} String
+     *  
+     *  {Category} User Defined
+     *  
+     *  {param} string("infilename") input: the name of the source (gzip) file
+     *  {param} string("outfilename") input: the name of the target file
+     *  
+     *  {example} unGzipFile("test.txt.gz", "test.txt") # returns checksum of output file
+     */
+    public static String unGzipFile (String infilename, String outfilename) {
+    	final int BUF_SIZE = 2048;
+    	String checksumVal = "";
+    	
+    	try {
+    		GZIPInputStream in = new GZIPInputStream(new FileInputStream(infilename));
+    		OutputStream out = new FileOutputStream(outfilename);
+    		CheckedOutputStream checksum = new CheckedOutputStream(out, new Adler32());
+    		
+    		byte data [] = new byte[BUF_SIZE];
+    		
+    		int length;
+    		while ((length = in.read(data)) > 0) {
+    			out.write(data, 0, length);
+    		}
+    		
+    		in.close();
+    		out.close();
+    		checksumVal = "" + checksum.getChecksum().getValue();
+    	} catch (Exception e) {
+    		e.printStackTrace();
+    		checksumVal = null;
+    	}
+		return checksumVal;
+    }
+}
