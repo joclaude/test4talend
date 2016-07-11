@@ -122,7 +122,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHMap_1" show="false"/>
     <elementParameter field="LABEL" name="MAPPATH_HELP" value="To create a new map based on the input and output of tHMap, &#xA;use Open Map Editor below. To use an existing map, select the Map Path &#xA;below and then use Open Map Editor."/>
     <elementParameter field="EXTERNAL" name="MAP_EDITOR" value=""/>
-    <elementParameter field="HMAP_PATH" name="HMAP_PATH" value="&quot;customerData2XML&quot;"/>
+    <elementParameter field="HMAP_PATH" name="HMAP_PATH" value="&quot;/LIB/Maps/customerData2XML&quot;"/>
     <elementParameter field="RADIO" name="SOURCE_AS_MAP" value="false" show="false"/>
     <elementParameter field="RADIO" name="SOURCE_AS_STRING" value="true"/>
     <elementParameter field="RADIO" name="AS_MAP" value="false" show="false"/>
