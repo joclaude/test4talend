@@ -7,6 +7,19 @@
     <documentationStatus xmi:id="_kno5sGhoEea8p6dfDjnu5A" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_kno5sWhoEea8p6dfDjnu5A" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_kno5smhoEea8p6dfDjnu5A" label="validated" code="VAL"/>
+    <ItemsRelations xmi:id="_yYgBgGhoEea8p6dfDjnu5A">
+      <baseItem xmi:id="_yYgBgWhoEea8p6dfDjnu5A" id="_qEIXkGhoEea8p6dfDjnu5A" version="0.1" type="job"/>
+      <relatedItems xmi:id="_yYgBgmhoEea8p6dfDjnu5A" id="_1hOicGhnEea_YfDnW_7UAg" version="Latest" type="mapper"/>
+      <relatedItems xmi:id="_yYgBg2hoEea8p6dfDjnu5A" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_yYgBhGhoEea8p6dfDjnu5A" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_yYgBhWhoEea8p6dfDjnu5A" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_yYgBhmhoEea8p6dfDjnu5A" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_yYgBh2hoEea8p6dfDjnu5A" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_yYgBiGhoEea8p6dfDjnu5A" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_yYgBiWhoEea8p6dfDjnu5A" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_yYgBimhoEea8p6dfDjnu5A" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_yYgBi2hoEea8p6dfDjnu5A" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_klfkoGhoEea8p6dfDjnu5A" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_klfkoWhoEea8p6dfDjnu5A" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_klfkomhoEea8p6dfDjnu5A" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
